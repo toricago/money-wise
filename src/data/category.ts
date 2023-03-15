@@ -42,4 +42,11 @@ export const categories: Props[] = [
     description:
       "Get insights and inspiration from the world of design, with articles covering graphic design, product design, interior design, and more.",
   },
+  {
+    title: "Personal Finance",
+    slug: "personal-finance",
+    color: "orange",
+    description:
+      "Managing an individual's or household's financial matters, including budgeting, saving, investing, and managing debt, among others. It is a crucial skill for achieving financial stability and security throughout one's life.",
+  },
 ];
