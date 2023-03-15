@@ -23,6 +23,7 @@ tags:
   - cash-based budgeting
   - adjusting budget
 author: xero
+heroImage: https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 publishDate: 2023-03-15T15:33:26.255Z
 ---
 ## Step 1: Track Your Expenses
