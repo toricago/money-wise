@@ -29,6 +29,11 @@ collections: # A list of collections the CMS should be able to edit
           default: "personal-finance",
         }
       - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Author", name: "author", widget: "string" }
+      - {
+          label: "Author",
+          name: "author",
+          widget: "string",
+          default: "yanat-chaiprasert",
+        }
       - { label: "Publish Date", name: "publishDate", widget: "datetime" }
       - { label: "Hero Image", name: "image", widget: "image", required: false }
