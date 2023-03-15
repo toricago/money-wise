@@ -1,5 +1,4 @@
 ---
-layout: $/layouts/Layout.astro
 title: "Debt Management Strategies: How to Get Out of Debt and Stay Debt-Free"
 excerpt: If you're struggling with debt, you're not alone.
 category: personal-finance
@@ -14,6 +13,7 @@ author: yanat-chaiprasert
 publishDate: 2023-03-15T16:59:37.888Z
 image: https://images.unsplash.com/photo-1634128222187-18eababc763d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
 ---
+
 If you're struggling with debt, you're not alone. According to a recent study, the average American household carries over $137,000 in debt. However, there are effective strategies you can use to manage your debt and become debt-free. Here are some debt management strategies to help you get started.
 
 ## 1. Create a Budget
