@@ -26,4 +26,10 @@ export const authors: Props[] = [
     image: "./src/assets/authors/erika.webp",
     bio: "Erika Oliver is a successful entrepreuner. She is the founder of Acme Inc, a bootstrapped business that builds affordable SaaS tools for local news, indie publishers, and other small businesses.",
   },
+  {
+    name: "Yanat Chaiprasert",
+    slug: "yanat-chaiprasert",
+    image: "./src/assets/authors/xeromoses.jpg",
+    bio: "Yanat is a software engineer with a growing interest in Personal Finance. He enjoys exploring how technology can help simplify financial management for individuals and families.",
+  },
 ];
