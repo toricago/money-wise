@@ -29,6 +29,7 @@ const makeTitle = title
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <SEO
       title={makeTitle}
       description={desc ||
@@ -55,7 +56,23 @@ const makeTitle = title
   <body>
     <Navbar />
     <slot />
-    <Footer />
+        <Footer />
+    <script >
+      declare global{
+        interface Window{
+          netlifyIdentity: any;
+        }
+      }
+          if (window.netlifyIdentity) {
+              window.netlifyIdentity.on('init', (user: any) => {
+                  if (!user) {
+                      window.netlifyIdentity.on('login', () => {
+                          document.location.href = '/admin/';
+                      });
+                  }
+              });
+          }
+  </script>
     <style is:global>
       /* Improve Page speed */
       /* https://css-tricks.com/almanac/properties/c/content-visibility/ */
