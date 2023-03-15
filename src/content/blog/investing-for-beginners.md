@@ -1,5 +1,4 @@
 ---
-layout: $/layouts/Layout.astro
 title: Investing for Beginners
 excerpt: Investing can seem intimidating, especially if you're new to the world
   of finance. However, investing can be a great way to grow your wealth and
@@ -20,6 +19,7 @@ author: yanat-chaiprasert
 publishDate: 2023-03-15T16:38:47.721Z
 image: https://images.unsplash.com/photo-1620228885847-9eab2a1adddc
 ---
+
 Investing can seem intimidating, especially if you're new to the world of finance. However, investing can be a great way to grow your wealth and achieve your financial goals. In this article, we'll cover the basics of investing to help you get started.
 
 ## Why Invest?
